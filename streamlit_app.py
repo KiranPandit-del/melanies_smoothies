@@ -1,7 +1,10 @@
-import python packages
+#import python packages
 import streamlit as st
-st.title('My Parents New Healty Diner')
+from snowflake.snowpark.context import get_active_session
+import pandas as pd
 from snowflake.snowpark.functions import col
+st.title('My Parents New Healty Diner')
+
 
 # Write directly to the app
 st.title(":cup_with_straw: Customize Your Smothie!:cup_with_straw:")
