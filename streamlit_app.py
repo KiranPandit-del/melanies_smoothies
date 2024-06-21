@@ -1,4 +1,4 @@
-# Import python packages
+Import python packages
 import streamlit as st
 st.title('My Parents New Healty Diner')
 from snowflake.snowpark.functions import col
